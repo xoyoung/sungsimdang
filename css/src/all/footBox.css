@@ -1,0 +1,70 @@
+/* footBox.css */
+
+@import url("./footBox/p1_mobile.css");
+@import url("./footBox/p1_tab.css");
+@import url("./footBox/p1_pc.css");
+@import url("./footBox/p1_pcfull.css");
+
+/* #footBox--------------*/
+#footBox{width: 100%; height: 180px; background-color: #201f1f;
+box-sizing: border-box;}
+
+.fnb_wrap{width: 86%; max-width: 960px; height: 100%; margin: auto;
+box-sizing: border-box; padding-top: 15px;}
+.fnb_box{width: 100%; height: 40px;}
+.fnb_box>h2{width:154px; height: 100%; float: left;
+background-image: url(../../../img/footBox/footlogo.png);
+background-size: 100%;
+background-repeat: no-repeat;
+background-position: center;}
+.fnb_box>nav{width: 76%; height: 100%; float: right;}
+.fnb{width: 55%; height: 100%; float: left;}
+.fnb>li{width: 25%; height: 100%; float: left;}
+.fnb>li>a{display: block; width: 100%; height: 100%; 
+  font-size: 0.8rem; color: #999; 
+  text-align: center; line-height: 40px;}
+.fnb>li>a:focus,.fnb>li>a:hover{color: #aaa; text-decoration: underline;}
+
+.comp_menu{width: 45%; height: 100%; float: right;}
+.comp_menu>li{width: 29%; height: 100%; float: left;}
+.comp_menu>li:last-child{width: 42%;}
+.comp_menu>li>a{display: block; width: 100%; height: 100%;
+font-size: 0.8rem; color: #aaa; font-weight: bold;
+text-align: center; line-height: 40px;}
+.comp_menu>li>a:focus,.comp_menu>li>a:hover{color: #eee; text-decoration: underline;}
+
+.copy_box{width: 97%; height: 90px; }
+.address{width: 100%; height: 20px;
+font-size: 0.7rem; color: #878787; font-weight: bold;
+line-height: 20px;
+text-decoration: underline;}
+.copy{width: auto; height: 20px; margin-top: 10px;
+font-size: 0.76rem; color: #aaa; font-weight: bold;
+line-height: 20px;
+float: left;
+box-sizing: border-box; padding-top: 8px;}
+
+.icon{width: 530px; height: 40px; float: right; margin-top: 10px;}
+
+.icon>div{height: 46px; float: left;
+  margin-right: 3%;}
+
+.icon>div:nth-of-type(1n){width: 130px;}
+.icon>div:nth-of-type(2n){width: 56px;}
+.icon>div:nth-of-type(3n){width: 140px;}
+.icon>div:nth-of-type(4n){width: 150px; margin-right: 0;}
+
+.icon>div>a{display: block;
+  width: 100%; height: 100%;
+background-image: url(../../../img/footBox/f1.png);
+background-repeat: no-repeat;
+background-size: 100%;
+background-position: center;
+}
+
+.icon>div:nth-of-type(2n) >a{
+  background-image: url(../../../img/footBox/f2.png);}
+.icon>div:nth-of-type(3n) >a{
+  background-image: url(../../../img/footBox/f3.png);}
+.icon>div:nth-of-type(4n) >a{
+  background-image: url(../../../img/footBox/f4.png);}

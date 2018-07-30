@@ -1,0 +1,20 @@
+/* p1_tab.css */
+
+@media screen and (min-width: 481px) and (max-width: 768px){
+
+
+/* #footBox--------------*/
+#footBox{height: 60px; box-sizing: border-box; padding-top: 8px;}
+.fnb_wrap{width: 340px; padding-top: 5px; margin: auto;}
+.fnb_box{width: auto; height: auto;
+box-sizing: border-box; padding-top: 5px;
+float: left;}
+.fnb_box>h2{width: 114px; height: 20px;}
+.fnb_box>nav{display: none;}
+.copy_box{width: auto; height: auto; float:right;}
+.copy{ padding-top: 0; width: auto;  margin-top: 5px;
+font-size: 0.64rem;}
+.address{display: none;}
+.icon{display: none;}
+
+}

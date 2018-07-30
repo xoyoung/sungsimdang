@@ -1,0 +1,53 @@
+/* p1_tab.css */
+
+@media screen and (min-width: 481px) and (max-width: 768px){
+
+
+/* #bannerBox----------*/
+#bannerBox{height: /*250px*/54vw; margin-top: 50px;}
+.banner>li{background-size: cover;}
+
+/* #productBox----------*/
+#productBox{ height: /*690px*/100vw;;}
+
+.arrow{top: 45%;
+  padding: 0 4% 0;
+transition: all 100ms ease;}
+
+
+.pd_box{background-size: 80%;
+background-position: 50% 22%;}
+/*.pd_box>ul>li{background-size: 50%;}*/
+.pd1{background-size: 58%;}
+.pd2{background-size: 45%;}
+.pd3{background-size: 45%;}
+.pd4{background-size: 58%;}
+
+.pd>dt{font-size: 1.5rem; font-weight: bold;
+  line-height: 40px; margin-top: 9vw;}
+.pd>dd{width: 100%; height: auto; margin-top: 5px;
+  font-size: 0.9rem; line-height: 140%;}
+.pd>dd:last-child{margin-top: 16px;}
+
+
+.button>button{ 
+  width: 140px; height: 35px;}
+
+
+/* #eventBox-------------*/
+#eventBox{height: 600px; padding-top: 14%;}
+
+.event_con{
+  width: 90%; height: 500px;
+ margin: auto;}
+.event_con>div{width: 100%; height: 100%;}
+.news{width: 48%; height: 80%; float: left;} 
+/*.news_con>div>dl{width: 100%; height: 70%;}*/
+.img{height: 69%;}
+.news_con2{width: 48%; float: right;}
+.news_con2>div{width: 100%; height: 42%;}
+.news_con2 dl{margin-top: 3px;}
+.insta_con{display: none;}
+
+
+ }

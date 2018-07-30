@@ -1,0 +1,28 @@
+/* p1_pc.css*/
+
+@media screen and (min-width: 769px) and (max-width: 1366px){
+
+
+/* #bannerBox----------*/
+#bannerBox{ height: 49vw; }
+
+.b1{background-image: url(../../../img/adBox/bg2.jpg);}
+.banner>li{background-size: cover;}
+
+
+/* #productBox----------*/
+
+/*.pd_box{background-size:68vw;
+}*/
+
+.pd_box>ul>li{
+background-position: 50% 220px;}
+.pd_box>ul>.pd1{background-position: 50% 49%;}
+/* #eventBox-------------*/
+
+.event_con{ min-width: 676px; max-width: 1000px;}
+.news>a{background-size: 354px;}
+.news_con2 dl{margin-top: 20px;}
+
+
+ }

@@ -1,0 +1,32 @@
+/* p1_pc.css*/
+
+@media screen and (min-width: 769px) and (max-width: 1366px){
+#bannerBox{height: 52vw; max-height: 600px;}
+.text{padding-top: 17vw;}
+
+.b_intro{height:17vw; padding-top: 5%;}
+/*.b_intro>p{width: 506px; height: 80px; margin: auto; 
+  font-size: 1rem; font-weight: bold;
+  text-align: center;}*/
+.slide_con{width: 2800px;}  
+.slide_con>dl{min-width: 340px;}
+
+#albumBox{height: 100vw; max-height: 1270px;}
+.album_wrap{width: 80.527086vw;}
+
+.album{height: 71.01025vw;}
+.ab1{top: 4.978038vw;
+  width: 14.641288vw; height: 8.784773vw;}
+.ab2{top: 0.585651vw;
+  width: 20.497803vw; height: 13.177159vw;}
+.ab3{width: 14.641288vw; height: 21.961932vw;}
+.ab4{margin-top: -18.301610vw; margin-left: -15.373352vw;
+ width: 30.746705vw; height: 36.603221vw;}
+.ab5{width: 12.298682vw; height: 19.765739vw;}
+.ab6{width: 12.298682vw; height: 8.784773vw;}
+.ab7{width: 10.248907vw; height: 17.569546vw;}
+.ab8{width: 23.426061vw; height: 18.008784vw;}
+.ab9{width: 13.177159vw; height: 13.177159vw;}
+.ab10{width: 23.572474vw; height: 20.497803vw;}
+}
+ 

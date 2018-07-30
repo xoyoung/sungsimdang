@@ -1,0 +1,40 @@
+/* p1_mobile.css*/
+
+
+
+@media screen and (max-width: 480px) {
+
+#bannerBox{ height: /*240px;*/ 50vw; margin-top: 50px;}
+#brandBox{ height: auto;}
+.b_intro{height: 18.75vw; padding-top: 6%;}
+.b_intro>p{width: 90%; min-width: 278px; height: 40%; font-size: 0.78rem;font-weight: normal;}
+.brand_wrap{height:95.833333vw; min-height: 420px;
+padding-top: 8%;}
+.b_slide_wrap{}
+.b_slide_box{min-height: 360px;
+width: 100%;}
+
+
+.arrow_box>button{width: 10vw; height: 24vw;}
+
+.slide_con{width: 1800px;}
+.slide_con>dl{min-width: 170px; margin-right: 1.1%;
+max-width: 230px;}
+.slide_con>dl:nth-child(8n-5){width: 12%; max-width: 250px;
+min-width: 220px;}
+.slide_con>dl>dd:nth-child(2n){
+  box-sizing: border-box; padding-top: 3%;
+  font-size: 0.7rem;}
+.slide_con>dl>dd:last-child{
+  font-size: 0.9rem;}
+
+.b_search{height: 25vw; min-height: 80px; padding-top: 4%;}
+.b_search>form{width: 77vw; max-width: 500px; 
+  margin: auto;}
+.b_search>form>fieldset>legend{font-size: 1rem; color: #fff;}
+.search_box{height: 7.5vw; margin-top: 2%; max-height: 45px;}
+
+
+#albumBox{display: none;}
+
+}

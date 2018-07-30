@@ -1,0 +1,33 @@
+/* p1_mobile.css*/
+
+
+
+@media screen and (max-width: 480px) {
+/* min width 280px 설정하기*/
+
+#bannerBox{ height: /*240px;*/ 50vw; margin-top: 50px;}
+#shopMenu{height: 12.5vw; min-height: 45px;}
+.menu_box>li{line-height: 13vw;
+padding-top: 0; }
+.menu_box>li>a{font-size: 0.8rem;}
+
+.pd_box{height: 145.833333vw; min-height: 600px;}
+.bg_text{height: 21vw; min-height: 80px;}
+
+.pd_box h4{font-size: 1.05rem;}
+.pd_box>div{height: 49.166666vw; min-height: 200px;}
+
+.con{width: 88%;}
+.arrow_box{box-sizing: border-box; 
+  padding-left: 0.6%; padding-right: 0.6%;}
+.arrow_box>button{width: 3.5vw; min-width: 16px; max-width: 20px; 
+  height: 7vw; max-height: 40px; min-height: 30px;}
+
+  .con>ul>li>dl>dd>a{font-size: 0.7rem;}
+
+#eventBox{ height: 66.666666vw; max-height: 320px;
+padding-top: 7.5vw;}
+.event_wrap{width: 100%; max-width:480px; 
+ height: 52.083333vw; max-height: 250px;
+margin: auto;}
+ }

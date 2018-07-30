@@ -1,0 +1,20 @@
+/* p1_mobile.css*/
+
+@media screen and (max-width: 480px){
+/* min width 280px 설정하기*/
+
+
+/* #footBox--------------*/
+#footBox{height: 60px; box-sizing: border-box; padding-top: 8px;}
+.fnb_wrap{width: 71.7vw; padding-top: 5px; min-width: 280px; margin: auto;}
+.fnb_box{width: auto; height: auto;
+box-sizing: border-box; padding-top: 5px;
+float: left;}
+.fnb_box>h2{width: 21vw; height: 20px; min-width: 70px;}
+.fnb_box>nav{display: none;}
+.copy_box{width: auto; height: auto; float: right; }
+.copy{ padding-top: 0; width: auto;  margin-top: 5px; 
+font-size: 1vw; /*margin-left: 10px;*/}
+.address{display: none;}
+.icon{display: none;}
+ }

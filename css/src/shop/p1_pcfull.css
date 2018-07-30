@@ -1,0 +1,8 @@
+/* p1_pcfull.css */
+
+@media screen and (min-width: 1367px) {
+  
+.text{ padding-top: 230px;}
+
+.pd_box h4{padding-top: 14px;}
+}

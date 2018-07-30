@@ -1,0 +1,133 @@
+/* p1_ssd_shop.css */
+
+.wrap{width: 100%; height: auto;}
+
+/* #bannerBox */
+#bannerBox{
+  width: 100%; height: 600px;}
+.banner_img{width: 100%; height: 100%;
+background-image: url(../../img/shop/shopbanner.png);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;}
+.text{width: 100%; height: 100%; box-sizing: border-box; padding-top: 17%;}
+.text_img{display: block; 
+  width: 32%; height: 40%;  max-width: 540px; max-height: 150px; margin: auto;
+  background-image: url(../../img/shop/shop_text.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;}
+
+/* #shopmenu */
+
+ #shopMenu{width: 100%; height: 100px;
+  background-color: #ebebea;}
+ #shopMenu>div{width: 100%; max-width: 1100px; height: 100%;
+  margin: auto;}
+ .menu_box{width: 100%; height: 100%;}
+ .menu_box>li{width: 20%; height: 100%;
+  float: left;
+  box-sizing: border-box;
+  border: 0.01rem solid #fff;
+  text-align: center;
+  padding-top: 3.8%;}
+ .menu_box>li>a{font-size: 1.2rem; font-weight: bold;}
+.menu_box>li>a:hover{color: #e23918;}
+
+/* #shopBox */
+#shopBox{width: 100%; height:auto;
+ background-color: #f8f8f8;}
+.pd_box{width: 100%; height: 1200px;}
+.bg_text{display: block; margin: auto;
+  width: 100%; max-width: 720px; height: 200px;
+background-image: url(../../img/shop/textbg.png);
+background-size: 80%;
+background-repeat: no-repeat;
+background-position: center;}
+
+.pd_box>div{width: 100%; height: 410px;}
+.pd_box h4{width: 100%; height: 14%;
+text-align: center;
+font-size: 1.4rem; 
+box-sizing: border-box;
+padding-top: 2%;}
+.pd_box>div>div{width: 100%; height: 86%;
+background-color: #fff;}
+.center{position: relative;
+ width: 100%;
+ max-width: 1200px; height: 100%;
+ margin: auto;}
+.arrow_box{position: absolute; top: 40%;
+  left: 0;
+  width: 100%; height: 0;}
+.arrow_box>button{width: 36px; height: 68px;
+background-size: 100%;
+background-repeat: no-repeat;}
+.prev{float: left;
+background-image: url(../../img/shop/prev.png);}
+.next{float: right;
+background-image: url(../../img/shop/next.png);}
+
+
+
+.con{width: 90%;
+  max-width: 1140px; height: 100%; margin: auto;
+overflow: hidden;}
+.con>ul{width: 200%; height: 100%;}
+.con>ul>li{width: 16%; min-width: 152px;
+  height: 100%; float: left;
+margin-right: 1.5%;}
+.con>ul>li>dl{width: 100%; height: 100%;}
+.con>ul>li>dl>dt{width: 100%; height: 80%;}
+.con>ul>li>dl>dt>a{display: block;
+width: 100%; height: 100%;
+background-size: 86%;
+background-repeat: no-repeat;
+background-position: center;}
+.con>ul>li>dl>dd{height: 10%;
+box-sizing: border-box;
+padding-left: 14%;}
+.con>ul>li>dl>dd>a{width: 100%; height: 100%;
+/*text-align: center;*/
+font-weight: bold;}
+.con>ul>li>dl>dd:first-child{font-size: 1rem;}
+.con>ul>li>dl>dd:last-child{font-size: 0.8rem;}
+
+.new_wrap{}
+.n1>dl>dt>a{background-image: url(../../img/shop/n1.png);}
+.n2>dl>dt>a{background-image: url(../../img/shop/n2.png);}
+.n3>dl>dt>a{background-image: url(../../img/shop/n3.png);}
+.n4>dl>dt>a{background-image: url(../../img/shop/n4.png);}
+.n5>dl>dt>a{background-image: url(../../img/shop/n5.png);}
+.hot_wrap{margin-top: 50px;}
+.h1>dl>dt>a{background-image: url(../../img/shop/h1.png);}
+.h2>dl>dt>a{background-image: url(../../img/shop/h2.png);}
+.h3>dl>dt>a{background-image: url(../../img/shop/h3.png);}
+.h4>dl>dt>a{background-image: url(../../img/shop/h4.png);}
+.h5>dl>dt>a{background-image: url(../../img/shop/h5.png);}
+
+/* #eventBox */
+#eventBox{width: 100%; height: 560px;
+background-color: #CBCAC7;
+box-sizing: border-box;
+padding-top: 50px;}
+.event_wrap{ width:860px; height: 450px;
+margin: auto;}
+.event_wrap>div{position: relative;
+  width: 50%; height: 100%;
+float: left;}
+.event_wrap>div>a{display: block;
+  width: 100%; height: 100%;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;}
+.e1>a{background-image: url(../../img/shop/event1.png);}
+.e2>a{background-image: url(../../img/shop/event2.png);}
+.event_wrap>div>a>span{display: none;
+width: 100%; height: 100%;
+background-color: rgba(0,0,0,0.5);
+font-size: 1.2rem; color: #fff;
+font-weight: bold;
+text-align: center; line-height: 40.995607vw;}
+
+.event_wrap>div>a:hover span{display: block;}

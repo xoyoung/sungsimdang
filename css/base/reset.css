@@ -1,0 +1,74 @@
+/* reset.css */ 
+/* 크로스브라우징을 가능하도록 각 부라우저의 기본형태의 상태를 동일하게 변경 */
+
+
+html, body {margin: 0; padding: 0; width: 100%; height: 100%;}
+
+h1,h2,h3,h4,h5,h6,
+p,pre,div,ul,ol,li,dl,dt,dd,img{margin:0; padding:0; border:0; outline:0;}
+
+h1,h2,h3,h4,h5,h6,
+p,pre,div,ul,ol,li,dl,dt,dd,img,a,span,
+input,legend,label,select,button{font-family: 'Jeju Gothic', sans-serif;}
+
+ul,ol,li{list-style: none;}
+
+a {text-decoration: none; color: #333;}
+
+table,thead,tbody,tfoot,tr,th,td{border: 1px solid #333; border-spacing: 0; border-collapse: collapse; margin: 0; padding: 0;}
+caption{width: 100%; height: auto; margin-bottom: 0.5rem; font-weight: bold;}
+
+/* form ----*/
+/*input,*/ textarea, /*select*/ {box-sizing: border-box; border:0; border-radius: 0;}
+
+button{background: transparent; border: 0; cursor: pointer;}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tell"],
+input[type="search"],
+input[type="url"]{text-indent: 0.3rem; padding: 0; border: none;}
+
+
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+input[type="file"]{border:0;}
+
+select,button{
+  -webkit-appearance:none;
+  -moz-appearance:none;
+  -ms-appearance:none;
+  -o-appearance:none;
+  appearance:none;
+}
+
+/* html5 --- */
+main,header,nav,article,section,aside,footer,figure,figcaption {display: block;}
+
+/* common.css */
+/* 공통의 이름을 생성해서 하나의 이름을 부여시 동일하게 동작 도록 처리하는 기법 */
+
+.clearfix::after,
+.clearfix:after {content: " "; display: block; width: 100%; height: 0; clear: both;}
+.hidden_wrap a{display: block;width: 100%; height: 100%;}
+.hidden, .hidden_wrap span {
+  display: block; width: 0; height: 0; 
+  text-align: center; 
+  position: absolute; z-index: -100; 
+  overflow: hidden;}
+
+
+/* focus */
+
+a:focus,
+button:focus,
+input:focus,
+text-area:focus,
+select:focus{outline: 0.1rem solid #ddd;}
+
+/* hover */
+
+/*a:hover{text-decoration: underline;
+  text-decoration-color: #F84C18;}*/

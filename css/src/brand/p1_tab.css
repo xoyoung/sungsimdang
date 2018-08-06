@@ -18,15 +18,18 @@ box-sizing: border-box; padding-left: 6px; padding-right: 6px;}
 
 .slide_con{width: 400%;}
 .slide_con>dl{min-width: 180px; 
-  margin-right: 1.5%;}
+  margin-left: 1.5%;}
 .slide_con>dl:nth-child(8n-5){width: 12%; max-width: 330px;
 min-width: 210px;}
+.slide_con>dl:first-child,
+.slide_con>dl:nth-child(5n){width: 8%;
+  max-width: 200px; min-width: 130px;}
 .slide_con>dl>dd:nth-child(2n){
   box-sizing: border-box; padding-top: 3%;
   font-size: 0.7rem;}
 .slide_con>dl>dd:last-child{
   font-size: 0.9rem;}
-
+.b_name>p{ font-size: 0.72rem;}
 
 .b_search{height: 25vw; max-height: 180px; padding-top: 4%;}
 .b_search>form{width: 77vw; max-width: 500px; 

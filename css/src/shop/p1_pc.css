@@ -1,12 +1,13 @@
 /* p1_pc.css*/
 
 @media screen and (min-width: 769px) and (max-width: 1366px){
-#bannerBox{height: 52vw; max-height: 600px;}
- #shopMenu{height: 9vw; max-height: 100px;}
+#bannerBox{height: 48vw; max-height: 600px;}
+ #shopMenu{height: 8vw; max-height: 76px;}
 
 .arrow_box{box-sizing: border-box;
 padding-left: 1%; padding-right: 1%;}
-.con{width: 88%;}
+.menu_box>li>a{padding-top: 14%;}
+
 .pd_box{height: 108vw; min-height: 1000px; max-height:1200px;}
 .bg_text{height:14.641288vw; min-height: 130px; max-height: 200px;}
 .pd_box h4{padding-top: 1.024890vw;}

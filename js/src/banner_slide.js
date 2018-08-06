@@ -16,7 +16,7 @@
   bannerb          = bannerW.children('ul');
   banner           = bannerb.children('li');
   var zero         = 0;
-
+  var autoStart;
 
 var slideFn = function(zero){
 
@@ -51,7 +51,9 @@ var StartSlide = function(){
   autoStart = setInterval(function(){
               (zero < banner.length-1) ? zero+=1 : zero=1;
               slideFn(zero);}, 2500);
+
 };
+
 var StopSlide = function(){clearInterval(autoStart);};
 
 StartSlide();

@@ -21,15 +21,21 @@
     gnbBtn.on('click',function(e){
       gnb.stop().slideToggle();
       $(this).children('button').toggleClass('active');
+      cartP.hide();
+      loginP.hide();
     });
 
     login.on('click',function(e){
       loginP.stop().slideToggle();
        $(this).children('a').toggleClass('active');
+       gnb.hide();
+       cartP.hide();
     });
    cart.on('click',function(e){
      cartP.stop().slideToggle();
      $(this).children('a').toggleClass('active');
+      gnb.hide();
+      loginP.hide();
    });
  // under menu accordion
   

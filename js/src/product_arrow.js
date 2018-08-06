@@ -1,8 +1,7 @@
 //  product_arrow.js
 
 (function($){
-
-  var winW = $(window).outerWidth();
+  
   var zero = 0;
 
 // product 선택자
@@ -56,9 +55,5 @@ arrow.on('click',function(e){
   }
 
 });
-
-
-  
- 
 
 })(jQuery);

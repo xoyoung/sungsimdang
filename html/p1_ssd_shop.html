@@ -10,13 +10,6 @@
   <link rel="stylesheet" href="../css/base/reset.css" />
   <link rel="stylesheet" href="../css/src/shop.css" />
   <link rel="stylesheet" href="http://fonts.googleapis.com/earlyaccess/jejugothic.css">
-  <!-- 부트 스트랩 링크 -->
-  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css"> -->
-  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css"> -->
-  <!-- [if lte IE9] >
-    <script src="../ie/html5shiv/dist/html5shiv.min.js"></script>
-    <script src="../ie/pie/PIE_IE9.js"></script>
-  < ![endif] -->
   
   <link rel="apple-touch-icon" href="../favicon.gif">
   <link rel="shortcut icon" type="image/x-icon" href="../favicon.gif">
@@ -31,8 +24,7 @@
 <body>
   <!-- design -->
   <div class="wrap">
-    <header id="headBox">
-    </header>
+    <div class="headBox"></div>
     <!--bannerBox  -->
     <article id="bannerBox">
       <h2 class="hidden">sungsimdang product</h2>
@@ -55,114 +47,118 @@
         </ul>
       </div>
     </nav>
-    <article id="shopBox">
-      <h2 class="hidden">shop_area</h2>
-      <div class="pd_box">
-        <span class="bg_text"></span>
-        <div class="new_wrap">
-          <h4>신제품</h4>
-          <div class="n_box">
-            <div class="center">
-
-              <div class="arrow_box">
-                <button type="button" class="prev"><span class="hidden">prev</span></button>
-                <button type="button" class="next"><span class="hidden">after</span></button>
-              </div>
-              <div class="n_con con">
-                <ul>
-                  <li class="n1">
-                    <dl>
-                      <dt><a href="#"></a></dt>
-                      <dd><a href="#">미스터홍</a></dd>
-                      <dd><a href="#">2,800 원</a></dd>
-                    </dl>
-                  </li>
-                  <li class="n2">
-                    <dl>
-                      <dt><a href="#"></a></dt>
-                      <dd><a href="#">모찌모지식빵</a></dd>
-                      <dd><a href="#">3,000 원</a></dd>
-                    </dl>
-                  </li>
-                  <li class="n3">
-                    <dl>
-                      <dt><a href="#"></a></dt>
-                      <dd><a href="#">작은메아리</a></dd>
-                      <dd><a href="#">2,500원</a></dd>
-                    </dl>
-                  </li>
-                  <li class="n4">
-                    <dl>
-                      <dt><a href="#"></a></dt>
-                      <dd><a href="#">명란바게트</a></dd>
-                      <dd><a href="#">3,500원</a></dd>
-                    </dl>
-                  </li>
-                  <li class="n5">
-                    <dl>
-                      <dt><a href="#"></a></dt>
-                      <dd><a href="#">시오크로아상</a></dd>
-                      <dd><a href="#">1,500원</a></dd>
-                    </dl>
-                  </li>
-                </ul>
+    <div class="shop_new shop_tab">
+      <article id="shopBox">
+        <h2 class="hidden">shop_area</h2>
+        <div class="pd_box">
+          <span class="bg_text"></span>
+          <div class="new_wrap">
+            <h4>신제품</h4>
+            <div class="n_box">
+              <div class="center">
+                <div class="arrow_box">
+                  <button type="button" class="prev"><span class="hidden">prev</span></button>
+                  <button type="button" class="next"><span class="hidden">after</span></button>
+                </div>
+                <div class="n_con con">
+                  <ul>
+                    <li class="n1">
+                      <a href="#"><dl>
+                        <dt></dt>
+                        <dd>미스터홍</dd>
+                        <dd>2,800 원</dd>
+                      </dl></a>
+                    </li>
+                    <li class="n2">
+                      <a href="#"><dl>
+                        <dt></dt>
+                        <dd>모찌모찌식빵</dd>
+                        <dd>3,000 원</dd>
+                      </dl></a>
+                    </li>
+                    <li class="n3">
+                      <a href="#"><dl>
+                        <dt></dt>
+                        <dd>작은메아리</dd>
+                        <dd>2,500원</dd>
+                      </dl></a>
+                    </li>
+                    <li class="n4">
+                      <a href="#"><dl>
+                        <dt></dt>
+                        <dd>명란바게트</dd>
+                        <dd>3,500원</dd>
+                      </dl></a>
+                    </li>
+                    <li class="n5">
+                      <a href="#"><dl>
+                        <dt></dt>
+                        <dd>시오크로아상</dd>
+                        <dd>1,500원</dd>
+                      </dl></a>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-
-        <div class="hot_wrap">
+          <div class="hot_wrap">
             <h4>인기제품</h4>
-          <div class="h_box">
-            <div class="center">
-              <div class="arrow_box">
-                <button type="button" class="prev"><span class="hidden">prev</span></button>
-                <button type="button" class="next"><span class="hidden">next</span></button>
-              </div>
-              <div class="h_con con">
-                <ul>
-                  <li class="h1">
-                    <dl>
-                      <dt><a href="#"></a></dt>
-                      <dd><a href="#">토요빵</a></dd>
-                      <dd><a href="#">3,500 원</a></dd>
-                    </dl>
-                  </li>
-                  <li class="h2">
-                    <dl>
-                      <dt><a href="#"></a></dt>
-                      <dd><a href="#">카카오순정</a></dd>
-                      <dd><a href="#">2,500 원</a></dd>
-                    </dl>
-                  </li>
-                  <li class="h3">
-                    <dl>
-                      <dt><a href="#"></a></dt>
-                      <dd><a href="#">타이거 브레드</a></dd>
-                      <dd><a href="#">3,000원</a></dd>
-                    </dl>
-                  </li>
-                  <li class="h4">
-                    <dl>
-                      <dt><a href="#"></a></dt>
-                      <dd><a href="#">파이만주세트(6ea)</a></dd>
-                      <dd><a href="#">5,000원</a></dd>
-                    </dl>
-                  </li>
-                  <li class="h5">
-                    <dl>
-                      <dt><a href="#"></a></dt>
-                      <dd><a href="#">보문산 메아리</a></dd>
-                      <dd><a href="#">5,000원</a></dd>
-                    </dl>
-                  </li>
-                </ul>
+            <div class="h_box">
+              <div class="center">
+                <div class="arrow_box">
+                  <button type="button" class="prev"><span class="hidden">prev</span></button>
+                  <button type="button" class="next"><span class="hidden">next</span></button>
+                </div>
+                <div class="h_con con">
+                  <ul>
+                    <li class="h1">
+                      <a href="#"><dl>
+                        <dt></dt>
+                        <dd>토요빵</dd>
+                        <dd>3,500 원</dd>
+                      </dl></a>
+                    </li>
+                    <li class="h2">
+                      <a href="#"><dl>
+                        <dt></dt>
+                        <dd>카카오순정</dd>
+                        <dd>2,500 원</dd>
+                      </dl></a>
+                    </li>
+                    <li class="h3">
+                      <a href="#"><dl>
+                        <dt></dt>
+                        <dd>타이거 브레드</dd>
+                        <dd>3,000원</dd>
+                      </dl></a>
+                    </li>
+                    <li class="h4">
+                      <a href="#"><dl>
+                        <dt></dt>
+                        <dd>파이만주세트(6ea)</dd>
+                        <dd>5,000원</dd>
+                      </dl></a>
+                    </li>
+                    <li class="h5">
+                      <a href="#"><dl>
+                        <dt></dt>
+                        <dd>보문산 메아리</dd>
+                        <dd>5,000원</dd>
+                      </dl></a>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </div>  
-    </article>
+        </div>  
+      </article>
+    </div>
+    <div class="shop_bread shop_tab"></div>
+    <div class="shop_cake shop_tab"></div>
+    <div class="shop_sandwich shop_tab"></div>
+    <div class="shop_traditon shop_tab"></div>
 
     <article id="eventBox">
       <div class="event_wrap">
@@ -171,22 +167,44 @@
       </div>
     </article>
     <!-- footBox-->
-    <footer id="footBox">
-    </footer>
+    <div class="footBox">
+    </div>
   </div>
 
   <!-- javascript -->
   <script src="../js/base/jquery-3.3.1.min.js"></script>
   <script src="../js/base/jquery-ui.min.js"></script>
-  <script src="../js/src/p1_ssd_main.js"></script>
+  <script src="../js/src/shop_slide.js"></script>
+  
   <!-- 부트스트랩 링크 -->
   <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script> -->
    <script type="text/javascript">
     (function(){
-      var headBox = $('#headBox'); 
+      var headBox = $('.headBox'); 
         headBox.load('./all/headBox.html',function(){});
-      var footBox = $('#footBox');
+      var footBox = $('.footBox');
         footBox.load('./all/footBox.html',function(){});
+     
+      var shop_cake = $('.shop_cake');
+      shop_cake.load('./p1_ssd_shopcake.html#cakeBox',function(){});
+
+      var menu_box = $('.menu_box');
+      var shop_tab = $('.shop_tab');
+      var shop_menu = menu_box.children('li');
+      var shop_btn = shop_menu.children('a');
+
+       console.log(shop_tab);
+
+      shop_btn.on('click',function(e){
+        e.preventDefault();
+        var i = $(this).parent(shop_menu).index();
+        shop_tab.eq(i).show();
+        shop_tab.eq(i).siblings('.shop_tab').hide();
+        console.log(shop_tab.eq(i).siblings(shop_tab));
+        shop_menu.eq(i).addClass('select');
+        shop_menu.eq(i).siblings().removeClass('select');
+      });
+
     })(jQuery);
   </script>
 </body>

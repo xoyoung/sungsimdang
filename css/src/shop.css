@@ -17,3 +17,9 @@
 @import url("./shop/p1_tab.css");
 @import url("./shop/p1_pc.css");
 @import url("./shop/p1_pcfull.css");
+
+@import url("./p1_ssd_shopcake.css");
+@import url("./shopcake/p1_mobile.css");
+@import url("./shopcake/p1_tab.css");
+@import url("./shopcake/p1_pc.css");
+@import url("./shopcake/p1_pcfull.css");

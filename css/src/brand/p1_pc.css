@@ -1,15 +1,15 @@
 /* p1_pc.css*/
 
 @media screen and (min-width: 769px) and (max-width: 1366px){
-#bannerBox{height: 52vw; max-height: 600px;}
+#bannerBox{height: 48vw; max-height: 600px;}
 .text{padding-top: 17vw;}
 
-.b_intro{height:17vw; padding-top: 5%;}
+.b_intro{height:16vw; padding-top: 5%;}
 /*.b_intro>p{width: 506px; height: 80px; margin: auto; 
   font-size: 1rem; font-weight: bold;
   text-align: center;}*/
-.slide_con{width: 2800px;}  
-.slide_con>dl{min-width: 340px;}
+  
+.slide_con>dl{min-width: 300px;}
 
 #albumBox{height: 100vw; max-height: 1270px;}
 .album_wrap{width: 80.527086vw;}

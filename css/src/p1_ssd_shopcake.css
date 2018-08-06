@@ -1,0 +1,87 @@
+/* p1_ssd_shop.css */
+
+
+
+/* #shopBox */
+#cakeBox{width: 100%; height: auto;/* background-color: #f8f8f8;*/ box-sizing: border-box; padding-top: 110px;
+padding-bottom: 16%;}
+#cakeBox>h2{width: 100%; height: 40px; 
+  text-align: center; font-size: 2.5rem; font-weight: bold; color: #e53e0e;}
+
+.cake_tap{width: 100%; height: 32px; margin-top: 80px;}
+.cake_tap>ul{position: relative;
+  width: 400px; height: 100%; margin: auto;}
+.cake_tap>ul:before{content: " "; display: block;
+position: absolute; top: 0; left: 33%;
+width: 2px; height: 100%; background-color: #bebdbb;
+}
+.cake_tap>ul:after{content: " "; display: block;
+position: absolute; top: 0; left: 66%;
+width: 2px; height: 100%; background-color: #bebdbb;
+}
+.cake_tap>ul>li{width: 33%; height: 100%; margin-right: 0.5%; float: left;
+  line-height: 32px; text-align: center;
+  font-size: 1.1rem;}
+.cake_tap>ul>li:last-child{margin-right: 0;}
+.cake_tap>ul>li>a{color: #232222;}
+.cake_tap>ul>li>a:hover{font-weight: bold;}
+.cake_tap>ul>li>.active{outline: 0.19rem solid #e53e0e;
+outline-offset: 0.45rem;}
+
+/* cake list */
+
+.cake_pd_box{ position: relative;
+  width: 100%; height: auto; 
+  box-sizing: border-box; padding-top: 80px;
+  /*padding-left: 5%; padding-right: 5%;*/}
+.tab1{display: block;}
+.tab2{display: none;}
+.tab3{display: none;}
+
+.tab{width: 1210px; height: auto; margin: auto;
+overflow: hidden;}
+.list{width: 280px; height: 340px;
+  float: left; margin-right: 30px; margin-bottom: 50px;}
+.list:nth-of-type(4n){margin-right: 0;}
+.list>a{display: block; width: 100%; height: 100%;}
+.list>a>dl{width: 100%; height: 100%;}
+.list>a>dl>dt{width: 100%; height: 80%;
+background-color: #fff;
+background-size: 70%;
+background-repeat: no-repeat;
+background-position: center;}
+.list>a>dl>dd{width: 100%; height: 5%; text-align: center;
+font-size: 0.8rem;
+box-sizing: border-box; padding-top: 1.5%;}
+.list>a>dl>dd:nth-child(4n-2){width: 100%; height: 10%;
+font-size: 1rem; font-weight: bold; padding-top: 5%;}
+.more{position: absolute; bottom: -3%; left: 50%;
+  margin-left: -50px;
+width: 100px; height: 30px; background-color: #555;
+color: #fff; font-weight: bold;}
+
+.cake1>a>dl>dt{background-image: url(../../img/shopcake/c1.png);}
+.cake2>a>dl>dt{background-image: url(../../img/shopcake/c2.png);}
+.cake3>a>dl>dt{background-image: url(../../img/shopcake/c3.png);}
+.cake4>a>dl>dt{background-image: url(../../img/shopcake/c4.png);}
+.cake5>a>dl>dt{background-image: url(../../img/shopcake/c5.png);}
+.cake6>a>dl>dt{background-image: url(../../img/shopcake/c6.jpg);}
+.cake7>a>dl>dt{background-image: url(../../img/shopcake/c7.jpg);}
+.cake8>a>dl>dt{background-image: url(../../img/shopcake/c8.jpg);}
+.cake9>a>dl>dt{background-image: url(../../img/shopcake/c9.jpg);}
+.cake10>a>dl>dt{background-image: url(../../img/shopcake/c10.jpg);}
+.cake11>a>dl>dt{background-image: url(../../img/shopcake/c11.jpg);}
+.cake12>a>dl>dt{background-image: url(../../img/shopcake/c12.png);}
+.cake13>a>dl>dt{background-image: url(../../img/shopcake/s1.jpg);}
+.cake14>a>dl>dt{background-image: url(../../img/shopcake/s2.png);}
+.cake15>a>dl>dt{background-image: url(../../img/shopcake/s3.png);}
+.cake16>a>dl>dt{background-image: url(../../img/shopcake/s4.jpg);}
+.cake17>a>dl>dt{background-image: url(../../img/shopcake/s5.jpg);}
+
+.pound1>a>dl>dt{background-image: url(../../img/shopcake/p1.png);}
+.pound2>a>dl>dt{background-image: url(../../img/shopcake/p2.jpg);}
+.pound3>a>dl>dt{background-image: url(../../img/shopcake/p3.png);}
+
+.tarte1>a>dl>dt{background-image: url(../../img/shopcake/t1.jpg);}
+.tarte2>a>dl>dt{background-image: url(../../img/shopcake/t2.jpg);}
+

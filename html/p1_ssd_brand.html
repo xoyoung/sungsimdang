@@ -10,14 +10,7 @@
   <link rel="stylesheet" href="../css/base/reset.css" />
   <link rel="stylesheet" href="../css/src/brand.css" />
   <link rel="stylesheet" href="http://fonts.googleapis.com/earlyaccess/jejugothic.css">
-  <!-- 부트 스트랩 링크 -->
-  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css"> -->
-  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css"> -->
-  <!-- [if lte IE9] >
-    <script src="../ie/html5shiv/dist/html5shiv.min.js"></script>
-    <script src="../ie/pie/PIE_IE9.js"></script>
-  < ![endif] -->
-  
+
   <link rel="apple-touch-icon" href="../favicon.gif">
   <link rel="shortcut icon" type="image/x-icon" href="../favicon.gif">
 
@@ -31,8 +24,9 @@
 <body>
   <!-- design -->
   <div class="wrap">
-     <header id="headBox">
-    </header>
+     <div class="headBox">
+      <h1 class="hidden">brand info</h1>
+    </div>
 
     <!-- bannerBox -->
     
@@ -66,42 +60,64 @@
         <div class="b_slide_box">
           <div class="slide_con">
             <dl class="b1">
-              <dt><a href="#"><span>성심당</span></a></dt>
+              <dt><a href="#"><span class="dimd"></span>
+                <span class="b_name"><p>대전역 앞 작은 찐빵집으로 시작해<br/>
+                60년동안 시민의 사랑으로 성장하여<br/>
+                대전을 대표하는 향토기업이 되었습니다.<br/></p>
+                </span></a></dt>
               <dd>대전의 문화</dd>
               <dd>성 심 당</dd>
             </dl>
             <dl class="b2">
-              <dt><a href="#"><span>케잌부띠끄</span></a></dt>
+              <dt><a href="#"><span class="dimd"></span>
+                <span class="b_name"><p>" The Sweetest Heritage" <br/>
+                 또 하나의 아름다운 추억과<br/>
+                 환상의 케익이 가득한 성심당 케익부띠끄.</p>
+               </span></a></dt>
               <dd>sweet heritage</dd>
               <dd>성심당 케잌부띠끄</dd>
             </dl>
             <dl class="b3">
-              <dt><a href="#"><span>옛맛솜씨</span></a></dt>
+              <dt><a href="#"><span class="dimd"></span>
+                <span class="b_name"><p>60~70년대 노스텔지어 감성이 가득한 <br/>
+                성심당의 품위있는 전통과자점</p>
+              </span></a></dt>
               <dd>품격있는 옛 과자점</dd>
               <dd>옛맛솜씨</dd>
             </dl>
             <dl class="b4">
-              <dt><a href="#"><span>플라잉팬</span></a></dt>
+              <dt><a href="#"><span class="dimd"></span>
+                <span class="b_name"><p>설레임과 따뜻함 가득한 판타지.<br/>
+                가족, 연인, 친구와 함께하는<br/>
+                플라잉팬 판타지 브런치 & 다이닝</p></span></a></dt>
               <dd>Italian restaurant</dd>
               <dd>플라잉팬</dd>
             </dl>
             <dl class="b5">
-              <dt><a href="#"><span>테라스키친</span></a></dt>
+              <dt><a href="#"><span class="dimd"></span>
+                <span class="b_name"><p>전국최초 베이커리 식당<br/>
+                '테라스키친'에서<br/>
+                즐거운 경양식 나들이!</p></span></a></dt>
               <dd>전국 최초 베이커리식당</dd>
               <dd>테라스키친</dd>
             </dl>
             <dl class="b6">
-              <dt><a href="#"><span>삐아또</span></a></dt>
+              <dt><a href="#"><span class="dimd"></span>
+                <span class="b_name"><p>소박한 이탈리아 파스타 전문점<br/>
+                다양한 종류의 파스타와 리조또로 즐기는<br/>
+                나의 작은 행복</p></span></a></dt>
               <dd>Italian trattoria</dd>
               <dd>삐아또</dd>
             </dl>
             <dl class="b7">
-              <dt><a href="#"><span>우동야</span></a></dt>
+              <dt><a href="#"><span class="dimd"></span>
+                <span class="b_name"><p></p></span></a></dt>
               <dd>자가제면</dd>
               <dd>우동야</dd>
             </dl>
             <dl class="b8">
-              <dt><a href="#"><span>오븐스토리</span></a></dt>
+              <dt><a href="#"><span class="dimd"></span>
+                <span class="b_name"><p></p></span></a></dt>
               <dd>성심당 케이터링</dd>
               <dd>오븐스토리</dd>
             </dl>
@@ -110,7 +126,7 @@
       </div>
       </div>
       <div class="b_search">
-        <form action="" method="">
+        <form action="#" method="post">
           <fieldset>
             <legend>BRAND SEARCH</legend>
             <div class="search_box">
@@ -148,8 +164,8 @@
       </div>
     </article>  
     <!-- footBox-->
-    <footer id="footBox">
-    </footer>
+    <div class="footBox">
+    </div>
   </div>
 
   <!-- javascript -->
@@ -160,9 +176,9 @@
   <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script> -->
    <script type="text/javascript">
     (function(){
-      var headBox = $('#headBox'); 
+      var headBox = $('.headBox'); 
         headBox.load('./all/headBox.html',function(){});
-      var footBox = $('#footBox');
+      var footBox = $('.footBox');
         footBox.load('./all/footBox.html',function(){});
     })(jQuery);
   </script>

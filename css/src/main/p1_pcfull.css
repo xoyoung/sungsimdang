@@ -4,18 +4,16 @@
   
   /* #bannerBox----------*/
 #bannerBox{ height: 49vw;}
-.b1{background-image: url(../../../img/adBox/bg2.jpg);}
-.banner>li{background-size: cover;}
+
+
 /* #productBox----------*/
-.pd_box>ul>li{
-background-position: 50% 220px;}
+
 .pd_box>ul>.pd1{background-position: 50% 49%;}
 
 /* #eventBox-------------*/
 
 .event_con{width: 90%; height: 800px; min-width: 676px; max-width: 1000px;
  margin: auto;}
- .news>a{background-size: 74%;}
  .news_con2 dl{margin-top: 20px;}
 
 }

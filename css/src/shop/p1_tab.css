@@ -5,15 +5,13 @@
 #bannerBox{height: 52vw; max-height: 600px; margin-top: 50px;}
 
 
- #shopMenu{height: 12vw; max-height: 70px;}
-  .menu_box>li{line-height: 8.2vh;
-    padding-top: 0;}
- .menu_box>li>a{font-size: 1.05rem;}
+ #shopMenu{height: 10vw; max-height: 70px;}
+ .menu_box>li>a{font-size: 1rem; padding-top: 19%;}
 
 .pd_box{height: 140vw; min-height: 700px; max-height: 1000px;}
  .bg_text{height: 21vw; max-height: 130px;}
 
-.pd_box h4{font-size: 1.25rem;}
+.pd_box h4{font-size: 1.1rem;}
 .pd_box>div{height: 49.166666vw; min-height: 200px;}
 
 .arrow_box{box-sizing: border-box; 

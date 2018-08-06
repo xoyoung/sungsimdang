@@ -34,10 +34,10 @@ margin-top: 8px; margin-left: 8px;}
  background-size: 100%;
 background-repeat: no-repeat;}
 .ham_wrap>button:hover/*.ham_wrap>button:focus*/{
-  background-image: url(../../../../img/headBox/ham_hv.png);
+  background-image: url(../../../../img/headBox/ham_h.png);
 }
 .ham_wrap>button.active{
-  background-image: url(../../../../img/headBox/exit.png);}
+  background-image: url(../../../../img/headBox/ham_h.png);}
 
 
 .gnb{display: none; top: 50px; left: 0; bottom: auto;
@@ -54,14 +54,17 @@ background-repeat: no-repeat;}
   text-align: initial; line-height: 50px;
   font-size: 1.04rem; font-weight: bold;
   box-sizing: border-box; padding-left: 16px;
-  border-top: 0.01rem solid #555;
-background-color:#C8A176; }
+  border-top: 0.02rem solid rgba(0,0,0,0.3);
+background-color:#fff;}
 
 .gnb>ul>li:hover .under_menu,.gnb>ul>li:focus .under_menu{display: none;}
 
 .gnb>ul>li:hover,.gnb>ul>li:focus{background-color: transparent;} 
-.gnb>ul>li:hover >a,.gnb>ul>li:focus >a{background-color: #171717;/* color: #e12912;*/}
+.gnb>ul>li:hover >a,.gnb>ul>li:focus >a{background-color: #222;
+outline: none; }
 .gnb>ul>.active {display: block;}
+.gnb>ul>li>a:focus{background-color: #222; color: #fff; outline: none;
+font-weight: normal;}
 
 /*under_menu*/
 .under_menu{display:none;
@@ -80,8 +83,6 @@ line-height: 40px;}
 .under_menu2 a{padding-left: 0;}
 .under_menu4 a{padding-left: 0;}
 
-.under_menu>ul>li>a:hover,.under_menu>ul>li>a:focus{font-weight: bold;
-text-decoration: none;}
 
 .social{display: none;}
 

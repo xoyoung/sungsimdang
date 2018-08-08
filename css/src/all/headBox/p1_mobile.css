@@ -6,9 +6,7 @@
 body,html{min-width: 280px;}
 /* #headBox----------*/
 #headBox{position: fixed; top: 0; left: 0; z-index: 600;
-height: 50px;
-
-/*border-top: 0.1rem solid #373536;*/}
+height: 50px; box-shadow: 3px 3px 3px rgba(0,0,0,0.3);}
 
 #headBox>.head_wrap{width: 70%; float: left;
 box-sizing: border-box; padding: 8px;

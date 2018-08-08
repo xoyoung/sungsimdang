@@ -19,12 +19,12 @@
 .arrow_box>button{width: 3.5vw;  max-width: 34px; 
   height: 7vw; max-height: 68px;}
 
-  .con>ul>li>dl>dd>a{font-size: 0.9rem;}
+.con>ul>li>a>dl>dd{height: 9%; font-size: 0.9rem;}
 
-#eventBox{ height: 66.666666vw; max-height: 320px;
-padding-top: 7vw;}
-.event_wrap{width:480px; 
- height: 52.083333vw; max-height: 250px;
-margin: auto;}
+
+#eventBox{padding-top: 5vw; padding-bottom: 6vw;}
+.event_wrap{width: 100%; height:24.6vw;}
+.event_wrap>div{width: 25%;}
+
 
  }

@@ -48,7 +48,7 @@ margin: auto;}
 
 /* #productBox----------*/
 #productBox{position: relative;
-  width: 100%; height: 800px; background-color: #fff;
+  width: 100%; height: 670px; background-color: #fff;
 }
 .arrow{position: absolute; z-index: 500; top: 48%; left: 0;
 width: 100%; height: 0;
@@ -68,10 +68,10 @@ background-image: url(../../img/productBox/next.png);}
 
 .pd_box{position: relative; z-index: 300; 
  width: 100%; height: 100%; overflow: hidden;
- background-image: url(../../img/adBox/bglo.gif);
- background-size: 400px;
+ background-image: url(../../img/productBox/textbg.png);
+ background-size: 700px;
  background-repeat: no-repeat;
- background-position: 50% 15%;}
+ background-position: 50% 25%;}
 
 .pd_box>ul{width: 500%; height: 100%;}
 .pd_box>ul>li{width: 20%; height: 100%; float: left;
@@ -88,7 +88,7 @@ background-size: 400px;}
 
 .pd_box:after{content: " "; display: block;
 position: absolute; bottom: 0; z-index: -1;
-width: 100%; height: 45%;  background-color: #edecec;}
+width: 100%; height: 44%;  background-color: #edecec;}
 
 
 .pd{position: absolute; bottom: 0;
@@ -113,8 +113,7 @@ cursor: pointer;}
 /* #eventBox-------------*/
 #eventBox{width: 100%; height: 1000px;
 box-sizing: border-box;
-padding-top: 80px;
-background-color: #f8f8f8;}
+padding-top: 80px;}
 
 .event_con{width: 90%; height: 800px; 
  margin: auto;}

@@ -13,9 +13,8 @@ padding-left: 1%; padding-right: 1%;}
 .pd_box h4{padding-top: 1.024890vw;}
 .pd_box>div{height: 38vw; min-height: 380px; max-height: 410px;}
 
-#eventBox{width: 100%; height: 40.995607vw; min-height: 330px;
-padding-top: 50px;}
-.event_wrap{width:62.957540vw; height: 32.942898vw; min-height: 260px;
-margin: auto;}
+
+.event_wrap{ width: 92vw; height: 23vw; margin: auto;}
+.event_wrap>div{width: 23vw;}
 
  }

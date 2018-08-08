@@ -23,13 +23,13 @@
 .con>ul{width: 300%;}
 .con>ul>li{min-width: 100px; margin-right: 2.5%;}
 .con>ul>li>a>dl{width: 100%; height: 100%;}
-.con>ul>li>a>dl>dd:nth-child(2n){font-size: 0.7rem;}
-.con>ul>li>a>dl>dd:last-child{font-size: 0.6rem;}
+.con>ul>li>a>dl>dd{height: 10%;}
+.con>ul>li>a>dl>dd:nth-child(2n){font-size: 0.9rem;}
+.con>ul>li>a>dl>dd:last-child{font-size: 0.7rem;}
 
 
-#eventBox{ height: 66.666666vw; max-height: 320px;
-padding-top: 7.5vw;}
-.event_wrap{width: 100%; max-width:480px; 
- height: 52.083333vw; max-height: 250px;
-margin: auto;}
+#eventBox{padding-top: 5vw; padding-bottom: 6vw;}
+.event_wrap{width: 280px; height: 280px;}
+.event_wrap>div{width: 140px; height: 140px;}
+
  }

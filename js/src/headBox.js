@@ -30,7 +30,6 @@
       cartP.hide();
       loginP.hide();
     });
-
     login.on('click',function(e){
       loginP.stop().slideToggle();
        $(this).children('a').toggleClass('active');
@@ -43,42 +42,31 @@
       gnb.hide();
       loginP.hide();
    });
- // under menu accordion
-  
+ // under menu accordion  
     gnbMenu.on('click',function(e){
-     e.preventDefault();
-     var i = $(this).index();
-     console.log(i);
-     console.log(link[i]);
-     
-     under.eq(i).find(underM).on('click',function(){
+      e.preventDefault();
+      var i = $(this).index();
+      under.eq(i).find(underM).on('click',function(){
       $(location).attr('href',link[i]);
-     });
-     
-   
-   var thisNext = $(this).children('div').css('display');
-
-    if(thisNext === 'block'){
-      $(this).children('div').stop().slideUp(500);
-    }else{
-      $(this).children('div').stop().slideDown(500);
-    }
-    $(this).siblings('li').children('div').stop().slideUp(500);
-
-    gnbMenu.removeClass('active');
-    $(this).addClass('active');
+      });   
+      var thisNext = $(this).children('div').css('display');
+      if(thisNext === 'block'){
+        $(this).children('div').stop().slideUp(500);
+      }else{
+        $(this).children('div').stop().slideDown(500);
+      }
+      $(this).siblings('li').children('div').stop().slideUp(500);
+      gnbMenu.removeClass('active');
+      $(this).addClass('active');
     });   
-
   }
 
 // 리사이즈 
 $(window).on('resize',function(e){
   var nowW = $(window).outerWidth();
-
   if(winW !== nowW){
     location.reload();
   }
-  
 });
 
 

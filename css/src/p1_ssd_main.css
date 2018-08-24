@@ -33,7 +33,7 @@ background-repeat: no-repeat;
 background-size: 100%;
 background-position: center;
 float: left;}
-.b1{background-image: url(../../../img/adBox/bg2.jpg);}
+.b1{background-image: url(../../img/adBox/bg2.jpg);}
 .b2{background-image: url(../../img/adBox/b2.jpg);}
 .b3{background-image: url(../../img/adBox/b3.jpg);}
 
@@ -78,11 +78,11 @@ background-image: url(../../img/productBox/next.png);}
 background-repeat: no-repeat;
 background-position: center;}
 .pd1{background-image: url(../../img/productBox/pd1.png);
-background-size: 400px;}
+background-size: 340px;}
 .pd2{background-image: url(../../img/productBox/pd2.png);
-background-size: 310px;}
+background-size: 280px;}
 .pd3{background-image: url(../../img/productBox/pd3.png);
-background-size: 310px;}
+background-size: 280px;}
 .pd4{background-image: url(../../img/productBox/pd4.png);
 background-size: 400px;}
 
@@ -128,12 +128,14 @@ padding-top: 80px;}
 
 .news{width: 100%; height: 48%; margin-bottom: 8%;} 
 .news{display: block;width: 100%; height: 100%; background-color: #fff; 
-  border: 0.15rem solid #717171;}
+  /*border: 0.15rem solid #717171;*/
+ box-shadow: 2px 2px 3px 2px rgba(0,0,0,0.5);}
 .news>a{display: block; width: 100%; height: 100%;
 background-image: url(../../img/noticeBox/yy.jpg);
 background-repeat: no-repeat;
 background-size: 98%;
-background-position: center;}
+background-position: center;
+}
 
 /*.news>a>span{ display: block;
   width: 100%; height: 100%;

@@ -8,7 +8,7 @@
 .banner>li{background-size: cover;}
 
 /* #productBox----------*/
-#productBox{ height: /*690px*/100vw;;}
+#productBox{ height: /*690px*/100vw; max-height:600px;}
 
 .arrow{top: 45%;
   padding: 0 4% 0;
@@ -18,10 +18,10 @@ transition: all 100ms ease;}
 .pd_box{background-size: 80%;
 background-position: 50% 22%;}
 /*.pd_box>ul>li{background-size: 50%;}*/
-.pd1{background-size: 58%;}
-.pd2{background-size: 45%;}
-.pd3{background-size: 45%;}
-.pd4{background-size: 58%;}
+.pd1{background-size: 44%;}
+.pd2{background-size: 37%;}
+.pd3{background-size: 38%;}
+.pd4{background-size: 48%;}
 
 .pd>dt{font-size: 1.5rem; font-weight: bold;
   line-height: 40px; margin-top: 9vw;}

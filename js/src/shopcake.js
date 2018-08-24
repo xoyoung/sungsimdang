@@ -9,18 +9,13 @@ var tab1 = cake_pdBox.children('div').eq(0);
 var list = $('.list');
 var cake = $('.cake');
 var cakeLen = cake.length;
-
 var cakeT = $('.cake_tap');
 var cakeLi = cakeT.find('li');
 var cakeMenu = cakeLi.children('a');
-
 var more = $('.more');
-console.log(tab1);
 
 // "use strict";
 // var v = "Hi!  I'm a strict mode script!";
-
-
 
 //  반응형 marginRight 값 
 // var listMr30 = function(k){
@@ -33,23 +28,19 @@ console.log(tab1);
 // };
 
 var listSize = function(){
-    if (winW>768 && winW <=950) {
-      tab.css({width:'96%'});
-      list.css({width:'30.4%'}); 
-    }else if (winW>950 && winW <= 1250) {
-      tab.css({width:'910px'});
-    };
+  if (winW>768 && winW <=950) {
+    tab.css({width:'96%'});
+    list.css({width:'30.4%'}); 
+  }else if (winW>950 && winW <= 1250) {
+    tab.css({width:'910px'});
+  };
 };
-
-
 var listMr0 = function(k,l){
   $.each(tab,function(i,v){
       list = $(this).children('div');
       var p = l+'%' || '30px';
-      list.css({marginRight:p});
-    
+      list.css({marginRight:p});    
     listSize();
-
     for(var i = 0; i<list.length; i+=1){
       var MR = i % k;
       if(MR == 0){
@@ -59,23 +50,19 @@ var listMr0 = function(k,l){
   });
 };
 
-
-
-//  more btn (1250이하 에서만 사용됨)
+//  more btn
 var View = function(v){
   var k;
   (v >= cakeLen) ?   k = cakeLen-1 :  k = v;
     cake.eq(k).show();
     cake.eq(k).prevAll().show();
 };
-
 var Hide = function(v) {
   cake.eq(v).nextAll().not(more).hide();
 };
 
 // 반응형 list 처리
 var j = 0;
-
 if (winW<=768) {
   listMr0(2);
 
@@ -90,7 +77,7 @@ if (winW<=768) {
     };
   });
 
-}else if (winW >768 && winW <= 1250) {
+}else if (winW >768 && winW <= 1250){
   listMr0(3, 3);
 
   j = 5;
@@ -102,8 +89,7 @@ if (winW<=768) {
     if (j == 17) {
       more.hide();
     };
-  });
- 
+  }); 
 }else{
   listMr0(4);
   
@@ -117,7 +103,6 @@ if (winW<=768) {
       more.hide();
     };
   });
-
 }
 
 
@@ -128,10 +113,8 @@ cakeMenu.on('click',function(e){
   var i = $(this).parent('li').index();
    cakeLi.eq(i).children('a').addClass('active');
    cakeLi.eq(i).siblings().children('a').removeClass('active');
-
    tab.eq(i).css({display:'block'});
    tab.eq(i).siblings().css({display:'none'});
-
 });
 
 

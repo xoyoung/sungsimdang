@@ -4,15 +4,12 @@
 
 var winW = $(window).outerWidth();
 var slideW = $('.b_slide_wrap');
-
 var slideCon = $('.slide_con');
 var brand = slideCon.children('dl');
-
 var arrowb = $('.arrow_box');
 var arrow = arrowb.children('button');
 var prev = $('.prev');
 var next = $('.next');
-
 var b1 = $('.b1');
 var b2 = $('.b2'); 
 var bW = b1.outerWidth()/2;
@@ -52,16 +49,14 @@ if(winW >= 1760 && winW <1860){
 }
 
 // brand arrow btn
-
-arrow.on('click',function(e){
-  e.preventDefault();
-brand = slideCon.children('dl');
-
-  if($(this)[0] === prev[0]) {
-brand.eq(7).insertBefore(brand.eq(0));
-  }else if($(this)[0] === next[0]){
- brand.eq(0).insertAfter(brand.eq(7));
-  }
-});
+  arrow.on('click',function(e){
+    e.preventDefault();
+  brand = slideCon.children('dl');
+    if($(this)[0] === prev[0]) {
+      brand.eq(7).insertBefore(brand.eq(0));
+    }else if($(this)[0] === next[0]){
+      brand.eq(0).insertAfter(brand.eq(7));
+    }
+  });
 
 })(jQuery);

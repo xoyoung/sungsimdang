@@ -48,57 +48,59 @@
 
 
 var slideFn = function(zero){
-
-var per = zero * -100 + '%';
-if(zero < banner.length-1){
-bannerb.stop().animate({marginLeft:per}, 500);  
-}else{
-  zero = 0;
- bannerb.stop().animate({marginLeft:per}, 500, function(){
-  $(this).css({marginLeft:0});
- });   
-}
-indiLi.eq(zero).addClass('active');
-indiLi.eq(zero).siblings('li').removeClass('active');
+  var per = zero * -100 + '%';
+  if(zero < banner.length-1){
+    bannerb.stop().animate({marginLeft:per}, 500);  
+  }else{
+    zero = 0;
+    bannerb.stop().animate(
+      {marginLeft:per}, 
+      500,
+      function(){$(this).css({marginLeft:0});}
+    );   
+  }
+  indiLi.eq(zero).addClass('active');
+  indiLi.eq(zero).siblings('li').removeClass('active');
 };
+
 slideFn(zero);
 
 
- // mobile&tab 
-  if(winW < 768){
-  // menu show
-    gnbBtn.on('click',function(e){
-      gnb.stop().slideToggle();
-      $(this).children('button').toggleClass('active');
-    });
+ // // mobile&tab 
+ //  if(winW < 768){
+ //  // menu show
+ //    gnbBtn.on('click',function(e){
+ //      gnb.stop().slideToggle();
+ //      $(this).children('button').toggleClass('active');
+ //    });
 
-    login.on('click',function(e){
-      loginP.stop().slideToggle();
-       $(this).children('a').toggleClass('active');
-    });
-   cart.on('click',function(e){
-     cartP.stop().slideToggle();
-     $(this).children('a').toggleClass('active');
-   });
- // under menu accordion
+ //    login.on('click',function(e){
+ //      loginP.stop().slideToggle();
+ //       $(this).children('a').toggleClass('active');
+ //    });
+ //   cart.on('click',function(e){
+ //     cartP.stop().slideToggle();
+ //     $(this).children('a').toggleClass('active');
+ //   });
+ // // under menu accordion
   
-    gnbMenu.on('click',function(e){
-     e.preventDefault();
+ //    gnbMenu.on('click',function(e){
+ //     e.preventDefault();
 
-   var thisNext = $(this).children('div').css('display');
+ //   var thisNext = $(this).children('div').css('display');
 
-    if(thisNext === 'block'){
-      $(this).children('div').stop().slideUp(500);
-    }else{
-      $(this).children('div').stop().slideDown(500);
-    }
-    $(this).siblings('li').children('div').stop().slideUp(500);
+ //    if(thisNext === 'block'){
+ //      $(this).children('div').stop().slideUp(500);
+ //    }else{
+ //      $(this).children('div').stop().slideDown(500);
+ //    }
+ //    $(this).siblings('li').children('div').stop().slideUp(500);
 
-    gnbMenu.removeClass('active');
-    $(this).addClass('active');
-    });   
+ //    gnbMenu.removeClass('active');
+ //    $(this).addClass('active');
+ //    });   
 
-  }
+ //  }
 
 // 리사이즈 
 $(window).on('resize',function(e){
@@ -112,12 +114,13 @@ $(window).on('resize',function(e){
 
 // bannerslide
 
-indiLi.on('click',function(e){
+indiLi.on('click,focusin',function(e){
   e.preventDefault();
 
   zero = $(this).index();
   slideFn(zero);
 });
+
 
 // bannerslide _auto
 

@@ -77,7 +77,7 @@ background-color: rgba(20,20,20,0.85);}
 width: 80%; margin:0; margin-left: 24px;
 font-size: 0.8rem; color: #fff;
 line-height: 40px;}
-.under_menu>ul>li:last-child {padding-bottom: 50px;}
+/*.under_menu>ul>li:last-child {padding-bottom: 50px;}*/
 .under_menu2 a{padding-left: 0;}
 .under_menu4 a{padding-left: 0;}
 

@@ -2,6 +2,7 @@
 dt,dd{font-family: initial;}
 
 .wrap{width: 100%; height: auto;}
+article{padding-bottom: 40px;}
 
 .about_wrap{position: relative;
   width: 100%; height: auto;}
@@ -9,17 +10,19 @@ dt,dd{font-family: initial;}
 
 .indi_box{position: fixed; right: 3%; top: 50%;
   margin-top: -130px;
-  width: 24px; height: 260px; background-color: #333;}
+  width: 24px; height: 260px; }
 .indi_box>ul{width: 100%; height: 100%;}
-.indi_box>ul>li{width: 100%; height: 18%; background-color: #faa;
+.indi_box>ul>li{width: 100%; height: 18%;
 margin-bottom: 22%;}
-.indi_box>ul>li>a{display: block; width: 100%; height: 30px; background-color: #2ef;}
+.indi_box>ul>li>a{display: inline-block; width: 8px; height: 8px; background-color: #373536; border-radius: 100%;}
+ .indi_box>ul>li:hover a,
+ .indi_box>ul>li:focus a{transform: scale(2) translateX(-2px); transition: all 300ms ease;}
 
 h2{width: 90%; height: 100px; max-width: 1000px; margin: auto;
   border-bottom: 0.08rem solid #777;
   background-repeat: no-repeat;
   background-position: 10px 70px;}
-#intro{width: 100%; height: auto; box-sizing: border-box; padding-bottom: 50px;}
+#intro{width: 100%; height: auto; box-sizing: border-box;}
 #intro>h2{
   background-image: url(../../img/info/ceo_m.png);}
 #intro>div{
@@ -41,7 +44,7 @@ background-repeat: no-repeat;
 background-position: right bottom;}
 
 #philosophy{width: 100%; height: auto;
-box-sizing: border-box; padding-top: 100px; padding-bottom: 70px;}
+box-sizing: border-box;}
 #philosophy>h2{background-image: url(../../img/info/fil.png);}
 #philosophy>div{}
 /*.img1{width: 600px; height: 400px;
